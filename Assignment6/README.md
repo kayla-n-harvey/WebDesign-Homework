@@ -1,1 +1,1 @@
-Hosted Page http://kayla.n.harvey-best-snakes/
+Hosted Page https://kayla-n-harvey.github.io/WebDesign-Homework/Assignment6/index.html
