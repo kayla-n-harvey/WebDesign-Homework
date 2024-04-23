@@ -1,0 +1,27 @@
+
+body{
+    font-family: 'body', sans-serif;
+    font-weight: normal;
+    font-size:larger;
+    color:rgb(3, 3, 8);
+}
+
+.main{
+    font-family: 'Jersey 10';
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
+.map {
+    font-family: 'Jersey 20 Charted';
+}
+
+.map:hover {
+    background: url("../images/map.jpg");
+    float: right;
+    display: block;
+    width: 500px;
+    height: 400px;
+}
