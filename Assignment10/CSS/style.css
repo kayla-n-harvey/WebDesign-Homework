@@ -1,0 +1,36 @@
+body{
+    font-family: 'Times new roman' }
+
+.main-container {
+    
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+   
+    padding: 5px;
+    background : rgb(185, 238, 240);
+    width: 75%;
+    margin: auto;
+}
+
+div.align{
+    text-align: center;
+}
+
+.secondary-container{
+    
+    margin: auto;
+    width:50%;
+    padding: 50px;
+    border-bottom: 1px black solid;
+    border-spacing: inherit;
+}
+ /* Add photo size. */
+#mainheader{
+    text-align: center;
+    left: 5px;
+    top:5px;
+    color: rgb(0, 0, 0);
+    opacity: .80;
+    font-size: 70px;
+}
