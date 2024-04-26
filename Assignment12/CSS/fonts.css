@@ -1,11 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20+Charted&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 @font-face {
-    font-family: 'Jersey';
+    font-family: 'Jersey 10';
     src: url(../fonts/Jersey10-Regular.ttf);
     font-weight: 400;
-    font-style: normal;
+    font-style: White;
+}
+
+@font-face {
+    font-family: "Oswald", sans-serif;
+    src: url(../fonts/Oswald.ttf);
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;  
 }

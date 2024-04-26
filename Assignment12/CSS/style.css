@@ -1,28 +1,77 @@
-
 body{
-    font-family: 'body', sans-serif;
-    font-weight: normal;
-    font-size:larger;
-    color:rgb(3, 3, 8);
+    font-family: 'Oswald';
+    font-style: normal;
 }
 
-.main{
-    font-family: 'Jersey 10';
-    font-size: 50px;
+.menuitem{
+    font-family: 'Jersey10';
+    display: inline-block;
+    min-width: 8em;
     text-align: center;
-    color: brown;
+    background-color: #000000;
+    padding: 0.5em 0;
+    color: #fdfafa;
+}
 
+.menuitem:hover {
+    background-color: #b5e0f8;
+    font-style:italic;
 }
 
 
-.map {
-    font-family: 'Jersey 20 Charted';
+.dropdown {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    padding: 0.5em 0;
 }
-
-.map:hover {
-    background: url("../images/map.jpg");
-    float: right;
+.dropdown a {
+    color: white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #cdddf5;
+    color: #000;
+    font-style:italic;
+}
+.dropdown-content a {
+    color: #000000;
+}
+.dropdown:hover .dropdown-content {
     display: block;
-    width: 500px;
-    height: 400px;
+}
+
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #baf0ef;
+    background-color: #9d8cec;
+    font-style:italic;
+
+}
+
+
+
+.Image {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 80px;
+}
+
+.direction {
+    height: 200px;
+    width: 65%;
+    background-color:#95a8fa;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
 }
