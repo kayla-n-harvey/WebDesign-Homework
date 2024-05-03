@@ -1,0 +1,95 @@
+body{
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.menuitem{
+    font-family: 'Jersey10';
+    display: inline-block;
+    min-width: 8em;
+    text-align: center;
+    background-color: #000000;
+    padding: 0.5em 0;
+    color: #ffffff;
+}
+
+.menuitem a{
+    color: #ffffff;
+}
+
+.menuitem:hover {
+    background-color: #b93e3e;
+    font-style:italic;
+}
+
+
+.dropdown {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    padding: 0.5em 0;
+}
+.dropdown a {
+    color: white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #cdddf5;
+    color: #000;
+    font-style:italic;
+}
+.dropdown-content a {
+    color: #000000;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #000000;
+    background-color: #1e33a8;
+    font-style:italic;
+
+}
+
+
+
+.Image {
+    float: right;
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 80px;
+}
+
+.direction {
+    height: 200px;
+    width: 65%;
+    background-color:#95a8fa;
+    border-radius: 3em;
+    margin: 4em;
+    padding: .5em;
+    overflow: scroll;
+}
+
+.homeimage{
+    margin:auto;
+    content:url("../images/about.jpg");
+}
+
+@media only screen and (min-width: 600px) {
+    .homeimage{
+        margin: auto;
+        content:url("../images/about.jpg");
+        height: 378px; 
+        width: 600px;
+    }
+}
